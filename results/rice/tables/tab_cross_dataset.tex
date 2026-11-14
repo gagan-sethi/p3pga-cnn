@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{Optimiser performance on both datasets. HV ranks are computed within each dataset.}
+\label{tab:crossdataset}
+\footnotesize
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+ & maize: HV mean & maize: HV s.d. & maize: HV rank & rice: HV mean & rice: HV s.d. & rice: HV rank & all: mean rank & maize: knee test F1 & maize: knee MMac & rice: knee test F1 & rice: knee MMac \\
+\midrule
+MO-P3PGA-II & 1.1339 & 0.0206 & 1.0000 & 1.1346 & 0.0093 & 1.0000 & 1.0000 & 0.8888 & 3.6675 & 0.8671 & 3.6430 \\
+GDE3 & 1.1187 & 0.0217 & 2.0000 & 1.1058 & 0.0288 & 3.0000 & 2.5000 & 0.9650 & 14.1092 & 0.8677 & 3.9149 \\
+MOGWO & 1.1153 & 0.0477 & 3.0000 & 1.1198 & 0.0218 & 2.0000 & 2.5000 & 0.9371 & 3.9720 & 0.8846 & 5.8908 \\
+MOEA/D & 1.1094 & 0.0290 & 4.0000 & 1.0908 & 0.0397 & 4.0000 & 4.0000 & 0.9397 & 3.6178 & 0.8125 & 3.8498 \\
+MO-P3PGA & 1.0982 & 0.0421 & 5.0000 & 1.0907 & 0.0401 & 5.0000 & 5.0000 & 0.9229 & 3.6681 & 0.8922 & 4.4696 \\
+Random Search & 1.0803 & 0.0270 & 6.0000 & 1.0677 & 0.0295 & 6.0000 & 6.0000 & 0.9427 & 4.8329 & 0.8560 & 4.8329 \\
+NSGA-II & 1.0562 & 0.0600 & 7.0000 & 1.0186 & 0.0827 & 7.0000 & 7.0000 & 0.9397 & 4.5816 & 0.8853 & 7.8443 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,15 @@
+vs,acc_vs,acc_ci,n01,n10,mcnemar_stat,mcnemar_p,test,mcnemar_p_holm,significant_0.05
+Random Search (knee),0.8811881188118812,"[81.19, 94.06]",1,9,1.0,0.021484375,exact binomial,0.30078125,False
+MOEA/D (knee),0.8811881188118812,"[82.15, 94.06]",1,9,1.0,0.021484375,exact binomial,0.30078125,False
+GDE3 (knee),0.9108910891089109,"[85.15, 96.04]",1,6,1.0,0.125,exact binomial,1.0,False
+MOGWO (knee),0.9207920792079208,"[86.14, 97.03]",2,6,2.0,0.2890625,exact binomial,1.0,False
+MO-P3PGA-II (knee),0.9306930693069307,"[88.12, 97.05]",1,4,1.0,0.375,exact binomial,1.0,False
+shufflenet_v2_x1_0 (ImageNet),0.9801980198019802,"[95.05, 100.00]",3,1,1.0,0.625,exact binomial,1.0,False
+resnet18 (ImageNet),0.9801980198019802,"[95.05, 100.00]",3,1,1.0,0.625,exact binomial,1.0,False
+mobilenet_v2 (ImageNet),0.9801980198019802,"[95.05, 100.00]",3,1,1.0,0.625,exact binomial,1.0,False
+MO-P3PGA-II (efficiency),0.9405940594059405,"[89.11, 98.02]",2,4,2.0,0.6875,exact binomial,1.0,False
+NSGA-II (knee),0.9504950495049505,"[90.10, 99.01]",1,2,1.0,1.0,exact binomial,1.0,False
+MO-P3PGA (knee),0.9504950495049505,"[91.09, 99.01]",1,2,1.0,1.0,exact binomial,1.0,False
+mobilenet_v3_small (ImageNet),0.9504950495049505,"[90.10, 99.01]",3,4,3.0,1.0,exact binomial,1.0,False
+efficientnet_b0 (ImageNet),0.9603960396039604,"[92.08, 99.01]",3,3,3.0,1.0,exact binomial,1.0,False
+Hand-designed CNN,0.9603960396039604,"[92.08, 99.01]",3,3,3.0,1.0,exact binomial,1.0,False

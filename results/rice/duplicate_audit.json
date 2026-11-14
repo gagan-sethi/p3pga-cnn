@@ -1,0 +1,58 @@
+{
+  "dataset": "rice",
+  "n_images": 4752,
+  "n_unique": 4752,
+  "test_images_also_in_train": 0,
+  "n_test": 101,
+  "test_with_train_neighbour_sim_ge_0.98": 14,
+  "test_with_train_neighbour_sim_ge_0.995": 0,
+  "thumbnail_side": 32,
+  "best_sim_quantiles_10_50_90": [
+    0.423,
+    0.8022,
+    0.9848
+  ],
+  "nearest_neighbour_same_class_frac": 0.7624,
+  "best_same_class_median": 0.8007,
+  "best_other_class_median": 0.4571,
+  "likely_copies_same_ge_0.995_other_lt_0.98": 0,
+  "dedup": {
+    "applied": true,
+    "images_before": 5932,
+    "images_after": 4752,
+    "duplicate_copies_removed": 1180,
+    "conflicting_label_groups_dropped": 0,
+    "images_in_conflicting_groups": 0,
+    "per_class_after": {
+      "Bacterial_Blight": 1284,
+      "Blast": 960,
+      "Brown_Spot": 1200,
+      "Tungro": 1308
+    }
+  },
+  "group_split": {
+    "applied": true,
+    "threshold": 0.995,
+    "n_groups": 509,
+    "group_size_median": 10.0,
+    "group_size_max": 42,
+    "groups_per_class": {
+      "Bacterial_Blight": 75,
+      "Blast": 80,
+      "Brown_Spot": 101,
+      "Tungro": 253
+    },
+    "fractions_by_photo": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "train_images": 2832,
+    "train_photos": 306,
+    "val_images": 924,
+    "val_photos": 102,
+    "val_all_copies": true,
+    "test_images_one_per_photo": 101,
+    "test_photos": 101
+  }
+}

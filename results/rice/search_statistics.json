@@ -1,0 +1,378 @@
+{
+  "HV": {
+    "metric": "HV",
+    "n_blocks": 10,
+    "algos": [
+      "GDE3",
+      "MO-P3PGA",
+      "MO-P3PGA-II",
+      "MOEA/D",
+      "MOGWO",
+      "NSGA-II",
+      "Random Search"
+    ],
+    "friedman_chi2": 26.314285714285745,
+    "friedman_p": 0.00019453967058540166,
+    "avg_ranks": {
+      "GDE3": 3.8,
+      "MO-P3PGA": 4.4,
+      "MO-P3PGA-II": 1.7,
+      "MOEA/D": 3.9,
+      "MOGWO": 2.9,
+      "NSGA-II": 5.9,
+      "Random Search": 5.4
+    },
+    "nemenyi_cd": 2.8490046683008434,
+    "baseline": "MO-P3PGA-II",
+    "pairwise": [
+      {
+        "vs": "GDE3",
+        "mean_base": 1.1346010692770414,
+        "mean_other": 1.1058155502106637,
+        "wilcoxon_p": 0.048828125,
+        "mannwhitney_p": 0.00728455700947966,
+        "A12": 0.86,
+        "wilcoxon_p_holm": 0.09765625,
+        "significant_0.05": false,
+        "effect": "large"
+      },
+      {
+        "vs": "MO-P3PGA",
+        "mean_base": 1.1346010692770414,
+        "mean_other": 1.090675233406142,
+        "wilcoxon_p": 0.009765625,
+        "mannwhitney_p": 0.004586392080253494,
+        "A12": 0.88,
+        "wilcoxon_p_holm": 0.029296875,
+        "significant_0.05": true,
+        "effect": "large"
+      },
+      {
+        "vs": "MOEA/D",
+        "mean_base": 1.1346010692770414,
+        "mean_other": 1.0908074278097952,
+        "wilcoxon_p": 0.00390625,
+        "mannwhitney_p": 0.0013149446697132139,
+        "A12": 0.93,
+        "wilcoxon_p_holm": 0.015625,
+        "significant_0.05": true,
+        "effect": "large"
+      },
+      {
+        "vs": "MOGWO",
+        "mean_base": 1.1346010692770414,
+        "mean_other": 1.119820384275393,
+        "wilcoxon_p": 0.064453125,
+        "mannwhitney_p": 0.053902557169387175,
+        "A12": 0.76,
+        "wilcoxon_p_holm": 0.09765625,
+        "significant_0.05": false,
+        "effect": "large"
+      },
+      {
+        "vs": "NSGA-II",
+        "mean_base": 1.1346010692770414,
+        "mean_other": 1.0185849207896698,
+        "wilcoxon_p": 0.001953125,
+        "mannwhitney_p": 0.00024612812790522973,
+        "A12": 0.99,
+        "wilcoxon_p_holm": 0.01171875,
+        "significant_0.05": true,
+        "effect": "large"
+      },
+      {
+        "vs": "Random Search",
+        "mean_base": 1.1346010692770414,
+        "mean_other": 1.0676881956367466,
+        "wilcoxon_p": 0.001953125,
+        "mannwhitney_p": 0.00018267179110955002,
+        "A12": 1.0,
+        "wilcoxon_p_holm": 0.01171875,
+        "significant_0.05": true,
+        "effect": "large"
+      }
+    ]
+  },
+  "IGD+": {
+    "metric": "IGD+",
+    "n_blocks": 10,
+    "algos": [
+      "GDE3",
+      "MO-P3PGA",
+      "MO-P3PGA-II",
+      "MOEA/D",
+      "MOGWO",
+      "NSGA-II",
+      "Random Search"
+    ],
+    "friedman_chi2": 32.657142857142844,
+    "friedman_p": 1.2204808111434071e-05,
+    "avg_ranks": {
+      "GDE3": 4.7,
+      "MO-P3PGA": 4.0,
+      "MO-P3PGA-II": 2.0,
+      "MOEA/D": 3.5,
+      "MOGWO": 2.1,
+      "NSGA-II": 5.7,
+      "Random Search": 6.0
+    },
+    "nemenyi_cd": 2.8490046683008434,
+    "baseline": "MO-P3PGA-II",
+    "pairwise": [
+      {
+        "vs": "GDE3",
+        "mean_base": 0.03543641568254507,
+        "mean_other": 0.06783429028973423,
+        "wilcoxon_p": 0.01953125,
+        "mannwhitney_p": 0.0036105143123296027,
+        "A12": 0.11,
+        "wilcoxon_p_holm": 0.05859375,
+        "significant_0.05": false,
+        "effect": "large"
+      },
+      {
+        "vs": "MO-P3PGA",
+        "mean_base": 0.03543641568254507,
+        "mean_other": 0.05667279642835675,
+        "wilcoxon_p": 0.013671875,
+        "mannwhitney_p": 0.03763531378731424,
+        "A12": 0.22,
+        "wilcoxon_p_holm": 0.0546875,
+        "significant_0.05": false,
+        "effect": "large"
+      },
+      {
+        "vs": "MOEA/D",
+        "mean_base": 0.03543641568254507,
+        "mean_other": 0.051786258177828795,
+        "wilcoxon_p": 0.130859375,
+        "mannwhitney_p": 0.10410988966022681,
+        "A12": 0.28,
+        "wilcoxon_p_holm": 0.26171875,
+        "significant_0.05": false,
+        "effect": "large"
+      },
+      {
+        "vs": "MOGWO",
+        "mean_base": 0.03543641568254507,
+        "mean_other": 0.03616557199577175,
+        "wilcoxon_p": 0.921875,
+        "mannwhitney_p": 0.9698499769931556,
+        "A12": 0.49,
+        "wilcoxon_p_holm": 0.921875,
+        "significant_0.05": false,
+        "effect": "negligible"
+      },
+      {
+        "vs": "NSGA-II",
+        "mean_base": 0.03543641568254507,
+        "mean_other": 0.09293009706252905,
+        "wilcoxon_p": 0.001953125,
+        "mannwhitney_p": 0.0010079762403767444,
+        "A12": 0.06,
+        "wilcoxon_p_holm": 0.01171875,
+        "significant_0.05": true,
+        "effect": "large"
+      },
+      {
+        "vs": "Random Search",
+        "mean_base": 0.03543641568254507,
+        "mean_other": 0.09322273730352365,
+        "wilcoxon_p": 0.001953125,
+        "mannwhitney_p": 0.00018267179110955002,
+        "A12": 0.0,
+        "wilcoxon_p_holm": 0.01171875,
+        "significant_0.05": true,
+        "effect": "large"
+      }
+    ]
+  },
+  "GD": {
+    "metric": "GD",
+    "n_blocks": 10,
+    "algos": [
+      "GDE3",
+      "MO-P3PGA",
+      "MO-P3PGA-II",
+      "MOEA/D",
+      "MOGWO",
+      "NSGA-II",
+      "Random Search"
+    ],
+    "friedman_chi2": 19.19999999999999,
+    "friedman_p": 0.003838864784301614,
+    "avg_ranks": {
+      "GDE3": 4.7,
+      "MO-P3PGA": 4.2,
+      "MO-P3PGA-II": 2.7,
+      "MOEA/D": 3.7,
+      "MOGWO": 2.4,
+      "NSGA-II": 4.3,
+      "Random Search": 6.0
+    },
+    "nemenyi_cd": 2.8490046683008434,
+    "baseline": "MO-P3PGA-II",
+    "pairwise": [
+      {
+        "vs": "GDE3",
+        "mean_base": 0.050828243733587755,
+        "mean_other": 0.09627116406515476,
+        "wilcoxon_p": 0.064453125,
+        "mannwhitney_p": 0.014019277113959953,
+        "A12": 0.17,
+        "wilcoxon_p_holm": 0.2578125,
+        "significant_0.05": false,
+        "effect": "large"
+      },
+      {
+        "vs": "MO-P3PGA",
+        "mean_base": 0.050828243733587755,
+        "mean_other": 0.09151102586422795,
+        "wilcoxon_p": 0.193359375,
+        "mannwhitney_p": 0.18587673236587576,
+        "A12": 0.32,
+        "wilcoxon_p_holm": 0.48046875,
+        "significant_0.05": false,
+        "effect": "medium"
+      },
+      {
+        "vs": "MOEA/D",
+        "mean_base": 0.050828243733587755,
+        "mean_other": 0.07917494591056186,
+        "wilcoxon_p": 0.16015625,
+        "mannwhitney_p": 0.04515456962427901,
+        "A12": 0.23,
+        "wilcoxon_p_holm": 0.48046875,
+        "significant_0.05": false,
+        "effect": "large"
+      },
+      {
+        "vs": "MOGWO",
+        "mean_base": 0.050828243733587755,
+        "mean_other": 0.05317110086671776,
+        "wilcoxon_p": 1.0,
+        "mannwhitney_p": 0.8501067391385259,
+        "A12": 0.53,
+        "wilcoxon_p_holm": 1.0,
+        "significant_0.05": false,
+        "effect": "negligible"
+      },
+      {
+        "vs": "NSGA-II",
+        "mean_base": 0.050828243733587755,
+        "mean_other": 0.08818218944829084,
+        "wilcoxon_p": 0.01953125,
+        "mannwhitney_p": 0.025748080821108063,
+        "A12": 0.2,
+        "wilcoxon_p_holm": 0.09765625,
+        "significant_0.05": false,
+        "effect": "large"
+      },
+      {
+        "vs": "Random Search",
+        "mean_base": 0.050828243733587755,
+        "mean_other": 0.13685239719331757,
+        "wilcoxon_p": 0.00390625,
+        "mannwhitney_p": 0.00043963875262656454,
+        "A12": 0.03,
+        "wilcoxon_p_holm": 0.0234375,
+        "significant_0.05": true,
+        "effect": "large"
+      }
+    ]
+  },
+  "best_err": {
+    "metric": "best_err",
+    "n_blocks": 10,
+    "algos": [
+      "GDE3",
+      "MO-P3PGA",
+      "MO-P3PGA-II",
+      "MOEA/D",
+      "MOGWO",
+      "NSGA-II",
+      "Random Search"
+    ],
+    "friedman_chi2": 14.142857142857139,
+    "friedman_p": 0.02808044890670574,
+    "avg_ranks": {
+      "GDE3": 4.1,
+      "MO-P3PGA": 3.2,
+      "MO-P3PGA-II": 2.7,
+      "MOEA/D": 5.9,
+      "MOGWO": 4.2,
+      "NSGA-II": 3.4,
+      "Random Search": 4.5
+    },
+    "nemenyi_cd": 2.8490046683008434,
+    "baseline": "MO-P3PGA-II",
+    "pairwise": [
+      {
+        "vs": "GDE3",
+        "mean_base": 0.11853146724392519,
+        "mean_other": 0.12370343070199205,
+        "wilcoxon_p": 0.193359375,
+        "mannwhitney_p": 0.27303633975118835,
+        "A12": 0.35,
+        "wilcoxon_p_holm": 0.580078125,
+        "significant_0.05": false,
+        "effect": "medium"
+      },
+      {
+        "vs": "MO-P3PGA",
+        "mean_base": 0.11853146724392519,
+        "mean_other": 0.11938539640564216,
+        "wilcoxon_p": 0.845703125,
+        "mannwhitney_p": 0.9097218891455553,
+        "A12": 0.48,
+        "wilcoxon_p_holm": 0.845703125,
+        "significant_0.05": false,
+        "effect": "negligible"
+      },
+      {
+        "vs": "MOEA/D",
+        "mean_base": 0.11853146724392519,
+        "mean_other": 0.14935922405795227,
+        "wilcoxon_p": 0.00390625,
+        "mannwhitney_p": 0.0022022199424970783,
+        "A12": 0.09,
+        "wilcoxon_p_holm": 0.0234375,
+        "significant_0.05": true,
+        "effect": "large"
+      },
+      {
+        "vs": "MOGWO",
+        "mean_base": 0.11853146724392519,
+        "mean_other": 0.13062866848313937,
+        "wilcoxon_p": 0.083984375,
+        "mannwhitney_p": 0.04515456962427901,
+        "A12": 0.23,
+        "wilcoxon_p_holm": 0.3359375,
+        "significant_0.05": false,
+        "effect": "large"
+      },
+      {
+        "vs": "NSGA-II",
+        "mean_base": 0.11853146724392519,
+        "mean_other": 0.12474337835675753,
+        "wilcoxon_p": 0.193359375,
+        "mannwhitney_p": 0.3074894566186813,
+        "A12": 0.36,
+        "wilcoxon_p_holm": 0.580078125,
+        "significant_0.05": false,
+        "effect": "medium"
+      },
+      {
+        "vs": "Random Search",
+        "mean_base": 0.11853146724392519,
+        "mean_other": 0.13132494240781084,
+        "wilcoxon_p": 0.064453125,
+        "mannwhitney_p": 0.10410988966022681,
+        "A12": 0.28,
+        "wilcoxon_p_holm": 0.322265625,
+        "significant_0.05": false,
+        "effect": "large"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "friedman_HV": {
+    "chi2": 16.159999999999997,
+    "p": 0.002811813001601129,
+    "blocks": 10
+  },
+  "tests": {
+    "HV": [
+      {
+        "variant": "MO-P3PGA NP=1",
+        "pairs": 10,
+        "wilcoxon_p": 0.76953125,
+        "A12_full": 0.58,
+        "p_holm": 1.0
+      },
+      {
+        "variant": "MO-P3PGA literal port",
+        "pairs": 10,
+        "wilcoxon_p": 0.76953125,
+        "A12_full": 0.59,
+        "p_holm": 1.0
+      },
+      {
+        "variant": "MO-P3PGA w/o attract",
+        "pairs": 10,
+        "wilcoxon_p": 0.4921875,
+        "A12_full": 0.67,
+        "p_holm": 1.0
+      },
+      {
+        "variant": "MO-P3PGA w/o mito",
+        "pairs": 10,
+        "wilcoxon_p": 0.001953125,
+        "A12_full": 0.83,
+        "p_holm": 0.0078125
+      }
+    ],
+    "IGD+": [
+      {
+        "variant": "MO-P3PGA NP=1",
+        "pairs": 10,
+        "wilcoxon_p": 0.6953125,
+        "A12_full": 0.55,
+        "p_holm": 1.0
+      },
+      {
+        "variant": "MO-P3PGA literal port",
+        "pairs": 10,
+        "wilcoxon_p": 1.0,
+        "A12_full": 0.53,
+        "p_holm": 1.0
+      },
+      {
+        "variant": "MO-P3PGA w/o attract",
+        "pairs": 10,
+        "wilcoxon_p": 0.048828125,
+        "A12_full": 0.64,
+        "p_holm": 0.146484375
+      },
+      {
+        "variant": "MO-P3PGA w/o mito",
+        "pairs": 10,
+        "wilcoxon_p": 0.00390625,
+        "A12_full": 0.85,
+        "p_holm": 0.015625
+      }
+    ],
+    "best_err": [
+      {
+        "variant": "MO-P3PGA NP=1",
+        "pairs": 10,
+        "wilcoxon_p": 0.275390625,
+        "A12_full": 0.36,
+        "p_holm": 0.826171875
+      },
+      {
+        "variant": "MO-P3PGA literal port",
+        "pairs": 10,
+        "wilcoxon_p": 1.0,
+        "A12_full": 0.495,
+        "p_holm": 1.0
+      },
+      {
+        "variant": "MO-P3PGA w/o attract",
+        "pairs": 10,
+        "wilcoxon_p": 0.76953125,
+        "A12_full": 0.46,
+        "p_holm": 1.0
+      },
+      {
+        "variant": "MO-P3PGA w/o mito",
+        "pairs": 10,
+        "wilcoxon_p": 0.130859375,
+        "A12_full": 0.62,
+        "p_holm": 0.5234375
+      }
+    ]
+  }
+}

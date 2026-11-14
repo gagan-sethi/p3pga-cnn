@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# run outputs and checkpoints (large; produced by the notebook)
+p3pga/
+p3pga_state*/
+outputs*/
+*.npy
+*.pt

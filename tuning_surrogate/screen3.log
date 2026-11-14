@@ -1,0 +1,11 @@
+stage A done 1813 s
+cfg
+P3II|p3pga_np=2,p2_mito_mode=differential,mito_scale=0.8,p2_third=global,p2_mito_frac=0.25,p2_delta_sched=const,p_attract=0.1,crossover_op=npoint      1.071890
+P3II|p3pga_np=2,p2_mito_mode=uniform,mito_scale=0.2222,p2_third=island,p2_mito_frac=0.25,p2_delta_sched=const,p_attract=0.2,crossover_op=npoint        1.069103
+P3II|p3pga_np=2,p2_mito_mode=uniform,mito_scale=0.2222,p2_third=island,p2_mito_frac=0.25,p2_delta_sched=linear,p_attract=0.3,crossover_op=npoint       1.069014
+P3II|p3pga_np=3,p2_mito_mode=differential,mito_scale=0.8,p2_third=global,p2_mito_frac=0.75,p2_delta_sched=linear,p_attract=0.2,crossover_op=npoint     1.066710
+P3II|p3pga_np=2,p2_mito_mode=differential,mito_scale=0.3,p2_third=island,p2_mito_frac=0.25,p2_delta_sched=const,p_attract=0.05,crossover_op=npoint     1.066596
+P3II|p3pga_np=2,p2_mito_mode=differential,mito_scale=0.3,p2_third=global,p2_mito_frac=0.25,p2_delta_sched=linear,p_attract=0.05,crossover_op=npoint    1.065190
+P3II|p3pga_np=3,p2_mito_mode=differential,mito_scale=0.3,p2_third=island,p2_mito_frac=0.5,p2_delta_sched=const,p_attract=0.1,crossover_op=npoint       1.064614
+P3II|p3pga_np=2,p2_mito_mode=differential,mito_scale=0.5,p2_third=global,p2_mito_frac=0.75,p2_delta_sched=const,p_attract=0.3,crossover_op=sbx         1.063038
+done 2075 s

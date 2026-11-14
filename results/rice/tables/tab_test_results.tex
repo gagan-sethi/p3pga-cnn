@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\caption{Held-out test-set performance and deployment cost of the fully trained architectures selected from each optimiser's Pareto front.}
+\label{tab:testresults}
+\footnotesize
+\begin{tabular}{lrrrrrrrr}
+\toprule
+ & Acc. & macro-$F_1$ & Prec. & Rec. & MCC & Params (M) & MMac & Lat. (ms) \\
+\midrule
+shufflenet\_v2\_x1\_0 (ImageNet) & 0.9851 & 0.9786 & 0.9827 & 0.9766 & 0.9781 & 1.2577 & 73.4143 & 8.0212 \\
+mobilenet\_v2 (ImageNet) & 0.9851 & 0.9775 & 0.9803 & 0.9766 & 0.9781 & 2.2290 & 152.8083 & 6.6661 \\
+resnet18 (ImageNet) & 0.9851 & 0.9775 & 0.9803 & 0.9766 & 0.9781 & 11.1786 & 925.2884 & 3.2298 \\
+Hand-designed CNN & 0.9653 & 0.9478 & 0.9511 & 0.9464 & 0.9485 & 1.2159 & 405.5373 & 1.3605 \\
+efficientnet\_b0 (ImageNet) & 0.9554 & 0.9316 & 0.9351 & 0.9328 & 0.9340 & 4.0127 & 196.5035 & 10.8083 \\
+MO-P3PGA-II (accuracy) & 0.9472 & 0.9183 & 0.9231 & 0.9191 & 0.9217 & 0.1255 & 113.5366 & 2.6832 \\
+mobilenet\_v3\_small (ImageNet) & 0.9455 & 0.9175 & 0.9270 & 0.9172 & 0.9195 & 1.5220 & 28.8271 & 6.5357 \\
+MO-P3PGA (knee) & 0.9307 & 0.8922 & 0.8982 & 0.8943 & 0.8975 & 0.0110 & 4.4696 & 1.5924 \\
+NSGA-II (knee) & 0.9257 & 0.8853 & 0.8866 & 0.8849 & 0.8890 & 0.0448 & 7.8443 & 2.1845 \\
+MOGWO (knee) & 0.9257 & 0.8846 & 0.9011 & 0.8849 & 0.8915 & 0.0090 & 5.8908 & 1.3409 \\
+GDE3 (knee) & 0.9109 & 0.8677 & 0.8719 & 0.8646 & 0.8666 & 0.0186 & 3.9149 & 1.7687 \\
+MO-P3PGA-II (efficiency) & 0.9142 & 0.8677 & 0.8742 & 0.8663 & 0.8724 & 0.0018 & 3.5651 & 1.2102 \\
+MO-P3PGA-II (knee) & 0.9142 & 0.8671 & 0.8689 & 0.8691 & 0.8723 & 0.0040 & 3.6430 & 2.1277 \\
+Random Search (knee) & 0.9109 & 0.8560 & 0.8602 & 0.8578 & 0.8677 & 0.0046 & 4.8329 & 2.0960 \\
+MOEA/D (knee) & 0.8762 & 0.8125 & 0.8124 & 0.8167 & 0.8159 & 0.0039 & 3.8498 & 1.0971 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,7 @@
+{
+  "dataset": "maize",
+  "n_images": 4188,
+  "n_unique": 4186,
+  "test_images_also_in_train": 0,
+  "n_test": 629
+}

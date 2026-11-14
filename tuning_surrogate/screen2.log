@@ -1,0 +1,10 @@
+stage A done 3109 s
+    algo                          cfg        HV
+20  GDE3  GDE3|gde3_F=0.4,gde3_CR=0.7  1.077084
+3   GDE3  GDE3|gde3_F=0.2,gde3_CR=0.5  1.076323
+11  GDE3  GDE3|gde3_F=0.3,gde3_CR=0.5  1.074504
+      algo                                cfg        HV
+124  MOGWO   MOGWO|mogwo_a0=4.0,mogwo_mut=0.7  1.071197
+119  MOGWO  MOGWO|mogwo_a0=4.0,mogwo_mut=0.05  1.070013
+111  MOGWO  MOGWO|mogwo_a0=3.0,mogwo_mut=0.05  1.069770
+done 4230 s

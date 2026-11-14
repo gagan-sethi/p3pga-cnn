@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "MO-P3PGA-II: An evaluation-efficient parallel three-parent genetic algorithm for multi-objective CNN design in crop disease diagnosis"
+type: software
+authors:
+  - family-names: Sethi
+    given-names: Gagandeep
+    affiliation: "Department of Computer Applications, Lovely Professional University, Phagwara, Punjab, India"
+    orcid: "https://orcid.org/0009-0002-3660-9435"
+  - family-names: Singh
+    given-names: Amar
+    affiliation: "Department of Computer Applications, Lovely Professional University, Phagwara, Punjab, India"
+    orcid: "https://orcid.org/0000-0002-5567-6521"
+repository-code: "https://github.com/gagan-sethi/p3pga-cnn"
+license: MIT
+date-released: 2026-11-14
+keywords:
+  - neural architecture search
+  - multi-objective optimization
+  - genetic algorithm
+  - plant disease recognition

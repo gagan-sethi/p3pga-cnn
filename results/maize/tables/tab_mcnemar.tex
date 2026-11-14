@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\caption{McNemar tests of MO-P3PGA-II (accuracy) against every other model on the 629-image test split, with Holm--Bonferroni correction.}
+\label{tab:mcnemar}
+\footnotesize
+\begin{tabular}{lrrrrr}
+\toprule
+ & n01 & n10 & mcnemar\_stat & mcnemar\_p & mcnemar\_p\_holm \\
+\midrule
+MO-P3PGA-II (efficiency) & 5 & 113 & 97.0254 & 0.0000 & 0.0000 \\
+MO-P3PGA (efficiency) & 9 & 89 & 63.6837 & 0.0000 & 0.0000 \\
+MO-P3PGA-II (knee) & 7 & 43 & 24.5000 & 0.0000 & 0.0000 \\
+NSGA-III (knee) & 4 & 27 & 15.6129 & 0.0001 & 0.0014 \\
+SPEA2 (knee) & 3 & 20 & 3.0000 & 0.0005 & 0.0083 \\
+MO-P3PGA (knee) & 4 & 22 & 11.1154 & 0.0009 & 0.0137 \\
+MOEA/D (knee) & 3 & 18 & 3.0000 & 0.0015 & 0.0223 \\
+GDE3-tuned (knee) & 5 & 21 & 8.6539 & 0.0033 & 0.0457 \\
+NSGA-II (knee) & 4 & 17 & 4.0000 & 0.0072 & 0.0936 \\
+MOGWO (knee) & 4 & 15 & 4.0000 & 0.0192 & 0.2305 \\
+Random Search (knee) & 3 & 11 & 3.0000 & 0.0574 & 0.6311 \\
+MOPSO (knee) & 3 & 7 & 3.0000 & 0.3438 & 1.0000 \\
+resnet18 (ImageNet) & 8 & 5 & 5.0000 & 0.5810 & 1.0000 \\
+GDE3 (knee) & 5 & 3 & 3.0000 & 0.7266 & 1.0000 \\
+Hand-designed CNN & 6 & 8 & 6.0000 & 0.7905 & 1.0000 \\
+MO-P3PGA (accuracy) & 8 & 6 & 6.0000 & 0.7905 & 1.0000 \\
+shufflenet\_v2\_x1\_0 (ImageNet) & 9 & 10 & 9.0000 & 1.0000 & 1.0000 \\
+efficientnet\_b0 (ImageNet) & 6 & 7 & 6.0000 & 1.0000 & 1.0000 \\
+mobilenet\_v2 (ImageNet) & 9 & 8 & 8.0000 & 1.0000 & 1.0000 \\
+mobilenet\_v3\_small (ImageNet) & 6 & 6 & 6.0000 & 1.0000 & 1.0000 \\
+MOGWO-tuned (knee) & 6 & 6 & 6.0000 & 1.0000 & 1.0000 \\
+\bottomrule
+\end{tabular}
+\end{table}

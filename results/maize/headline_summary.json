@@ -1,0 +1,40 @@
+{
+  "model": "MO-P3PGA-II (accuracy)",
+  "accuracy": 0.9697933227344993,
+  "accuracy_ci95": [
+    0.9554848966613673,
+    0.9825119236883942
+  ],
+  "f1_macro": 0.9621371805582332,
+  "f1_macro_ci95": [
+    0.9447533638210407,
+    0.9779321582714333
+  ],
+  "phenotype": {
+    "n_blocks": 4,
+    "base_filters": 64,
+    "growth": 1.75,
+    "block_type": "sep",
+    "kernel": 3,
+    "use_se": true,
+    "se_ratio": 0.25,
+    "activation": "gelu",
+    "stem_stride": 1,
+    "head_pool": "avg",
+    "dense_units": 0,
+    "conv_dropout": 0.0622,
+    "dense_dropout": 0.4057,
+    "optimizer": "rmsprop",
+    "lr": 0.001341,
+    "weight_decay": 3.904e-06,
+    "batch_size": 64,
+    "label_smooth": 0.0092,
+    "aug_strength": 0.5956,
+    "mix_alpha": 0.3635,
+    "mix_mode": "cutmix",
+    "p_erase": 0.4428,
+    "stage_depth": 1,
+    "expand_ratio": 2
+  },
+  "n_test": 629
+}

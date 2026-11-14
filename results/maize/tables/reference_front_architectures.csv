@@ -1,0 +1,13 @@
+n_blocks,base_filters,growth,block_type,kernel,use_se,se_ratio,activation,stem_stride,head_pool,dense_units,conv_dropout,dense_dropout,optimizer,lr,weight_decay,batch_size,label_smooth,aug_strength,mix_alpha,mix_mode,p_erase,stage_depth,expand_ratio
+3,16,1.25,sep,3,False,0.125,gelu,2,avg,0,0.0104,0.3068,rmsprop,0.002641,0.000104,16,0.0866,0.729,0.0319,mixup,0.25,1,4
+3,16,1.25,sep,3,False,0.125,leaky_relu,2,avgmax,0,0.013,0.2299,rmsprop,0.002867,9.102e-05,16,0.0779,0.4878,0.0,mixup,0.1931,1,4
+3,48,1.75,mbconv,5,True,0.5,silu,1,max,0,0.0055,0.0126,adam,0.005604,2.745e-05,64,0.0,0.4704,0.1028,cutmix,0.4192,1,6
+3,48,1.25,mbconv,3,False,0.125,silu,1,avgmax,256,0.0009,0.3436,rmsprop,0.0006681,0.0005562,32,0.0928,0.5749,0.0011,cutmix,0.277,2,4
+2,16,2.0,mbconv,3,False,0.25,relu,2,avgmax,0,0.0193,0.4238,adam,0.0138,0.005012,96,0.096,0.593,0.0,mixup,0.2228,2,2
+2,16,1.75,mbconv,3,True,0.25,silu,2,avg,0,0.0309,0.3154,adam,0.006775,8.006e-06,16,0.0842,0.7013,0.0446,mixup,0.0868,2,2
+2,16,1.25,sep,3,True,0.5,gelu,2,avg,64,0.0059,0.0412,rmsprop,0.00295,2.715e-05,16,0.0112,1.194,0.0071,mixup,0.1522,1,6
+4,16,1.25,mbconv,3,True,0.5,gelu,2,avgmax,256,0.055,0.2185,rmsprop,0.001296,5.122e-05,64,0.1111,0.2259,0.0507,mixup,0.3186,1,6
+2,16,1.25,sep,3,True,0.5,gelu,2,avgmax,128,0.0498,0.1637,rmsprop,0.001965,3.122e-05,64,0.1483,0.4985,0.0041,mixup,0.2611,1,6
+4,24,1.75,sep,5,True,0.25,silu,2,avg,0,0.0291,0.1899,adam,0.00664,0.0001285,96,0.0472,0.6555,0.3836,mixup,0.1621,1,4
+4,16,1.75,sep,3,True,0.25,silu,2,avg,0,0.0409,0.1015,adam,0.01597,3.516e-05,96,0.0424,0.9245,0.3699,mixup,0.2284,1,4
+2,16,1.75,sep,3,False,0.125,relu,2,avgmax,0,0.0691,0.3924,adamw,0.01304,0.0001818,32,0.022,0.9137,0.0,mixup,0.1285,1,3

@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Ablation of MO-P3PGA components over 10 paired runs. $\Delta$HV is relative to the complete algorithm; $p$ values are paired Wilcoxon tests against it with Holm correction.}
+\label{tab:ablation}
+\footnotesize
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+ & HV\_mean & HV\_std & HV\_delta\_\% & HV\_p\_holm & HV\_A12\_full & IGD+\_mean & IGD+\_p\_holm & best\_err\_mean & generations\_mean \\
+\midrule
+MO-P3PGA literal port & 1.1099 & 0.0196 & 0.6387 & 1.0000 & 0.5900 & 0.0705 & 1.0000 & 0.1216 & 4.0000 \\
+MO-P3PGA (full) & 1.1029 & 0.0416 & 0.0000 & NaN & NaN & 0.0696 & NaN & 0.1222 & 4.0000 \\
+MO-P3PGA w/o attract & 1.1000 & 0.0216 & -0.2660 & 1.0000 & 0.6700 & 0.0820 & 0.1465 & 0.1230 & 5.1000 \\
+MO-P3PGA NP=1 & 1.0894 & 0.0586 & -1.2237 & 1.0000 & 0.5800 & 0.0773 & 1.0000 & 0.1169 & 4.0000 \\
+MO-P3PGA w/o mito & 1.0466 & 0.0738 & -5.1063 & 0.0078 & 0.8300 & 0.1121 & 0.0156 & 0.1310 & 6.0000 \\
+\bottomrule
+\end{tabular}
+\end{table}
