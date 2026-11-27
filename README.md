@@ -94,7 +94,7 @@ The original P3PGA: Singh A, Kumar S, Singh A, Walia SS. *Parallel 3-Parent Gene
 
 ## Notes
 
-The experiment code was written with the help of an AI coding assistant (Claude, Anthropic) and reviewed by the authors. All reported results were produced by running the code in this repository.
+All reported results were produced by running the code in this repository.
 
 The datasets are not redistributed here; download them from the Kaggle pages above under their own licences.
 
